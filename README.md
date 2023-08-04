@@ -1,5 +1,5 @@
 # .dotfiles
 
-### Kinesis Advantage 360
-* Will there be a travel case?
-* Will there be blank key caps?
+
+
+Project from github.com/ThePrimeagen/.dotfiles with my changes
