@@ -197,5 +197,4 @@ bar {
 client.focused          #000000 #000000 #000000 #ff69b4   #000000
 for_window [class="^.*"] border pixel 2
 
-
-
+focus_follows_mouse no

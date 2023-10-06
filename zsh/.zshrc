@@ -114,6 +114,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export BUN_INSTALL="/home/mpaulson/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# Fly
+export FLYCTL_INSTALL="/home/matheus/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 # pnpm
 export PNPM_HOME="/home/mpaulson/.local/share/pnpm"
 export PATH="$PNPM_HOME:$PATH"
@@ -121,7 +125,7 @@ export PATH="$PNPM_HOME:$PATH"
 # Turso
 export PATH="/home/mpaulson/.turso:$PATH"
 
-export editor=neovim
+export editor=nvim
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -138,3 +142,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/matheus/Downloads/google/google-cloud-sdk/path.zsh.inc' ]; then . '/home/matheus/Downloads/google/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/matheus/Downloads/google/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/matheus/Downloads/google/google-cloud-sdk/completion.zsh.inc'; fi
